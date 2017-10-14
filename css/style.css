@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  color: #2c2c2c;
+  text-align: center;
+    font-weight: 500;
+    line-height: 180%;
+    font-size: 1.1em;
+}
+
+h2 {
+   font-size: 200%;
+  font-weight: 600;
+  color: #2c2c2c;
+  font-family: 'Mukta',  sans-serif;
+  text-align: center;
+  
+}
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.head-sec  {
+    height: 30em;
+    max-width:  100%;
+  background: url("https://static.pexels.com/photos/390392/pexels-photo-390392.jpeg") repeat fixed 100%;
+    margin: auto;
+    background-size: cover;
+    display: table;
+    top: 0;
+    opacity: .9;
+}
+
+.head-sec .names {
+    display: table-cell;
+    vertical-align: center;
+    width: 100%;
+    max-width: none;
+    
+}
+
+.names {
+   text-indent: 10%;
+    margin: auto;
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    text-shadow:  200% 200px 100px #f222ff;
+}
+
+h1 {
+    font-size: 500%;
+    font-weight: 700;
+     font-family: 'Mukta',  sans-serif;
+     
+}
+ 
+h3 {
+    font-size: 380%;
+    font-weight: 500;
+}
+
+/* ----Nav styles ------------- */
+ 
+nav {
+    text-align: center;
+    background: #747479;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: inline-block; 
+    
+    
+      
+}
+
+nav ul li {
+    display: inherit;
+    font-family: 'Mukta',  sans-serif;
+    font-size: 120%;
+    right: 100%;
+    padding-right: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+nav ul li:hover  {
+   color: #934211;
+}
+/*---NAV style finished -----*/
+
+main {
+    height: auto;
+}
+
+hr {
+ border: 1px solid #ee222e;
+ max-width: 100px;
+}
+
+/* ---- widgets section---*/
+
+.one-third {
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+    padding-right: 1%;
+}
+.icon-wrap {
+    margin: 0 auto;
+    width: 125px;
+    height: 120px;
+    border-radius: 120%;
+    text-align: center;
+    background-color: #6993ac;
+    margin-top: 8%;
+    margin-bottom: 2%;   
+}
+.icon-wrap i {
+    text-align: center;
+    color:#f0f0f0;
+    font-size: 450%;
+    padding: 15%
+}
+
+h4 {
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    font-family: 'Mukta',  sans-serif;
+}
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.picture {
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: auto: 
+    
+}
+.exam-work3{
+    padding-right: 4%;
+}
+
+.exam-work {
+    display: flex;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #eee;
+    font-size: 1.2em;
+    line-height: 2%;
+}
+footer p {
+    padding-top: 1%;
+}
+
+/*---- this section is for Media queries -----*/
+@media screen and (min-width: 861px){
+    .exam-work {
+    display: flex;
+    width: 100%;
+ }
+    .exam-work3 {
+        
+    }
+}
+@media screen (min-width:800px) and (max-width: 860px){
+         .exam-work {
+    display: block;
+ } 
+  
+}
+ @media screen and (max-width: 768px){
+         .exam-work {
+    display: block;
+} 
+     h1{
+         font-size: 300%;
+         padding-top: 10%;
+     }
+     h3 {
+         font-size: 250%;
+     }
+     
+     .one-third {
+         width: 100%;
+     }
+     
+     .one-third p {
+         padding: 0 2%;
+     }
+     
+ }
+@media screen and (min-width: 730px) {
+   .widget-pic {
+    width: 200px;
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 30%;
+} 
+
+        
+    }
+    span {
+        text-indent: -19%;
+    } 
+    
+     }
+
+
+
+
+/* ---Hover Tools-------*/
+
+.text-soon {
+   display: none;
+}
+
+.soon:hover {
+    
+    opacity: .9;
+    background: #fff444;
+}
+
+.soon {
+    height: 220px;
+    width: 250px;
+    background-color: #fcc3e7;
+    margin: auto;
+}
+/*----     Form Section   ----*/
+form {
+    max-width: 450px;
+    margin: 0 auto 50px;
+    background: #eee center;
+    
+}
+.form-block {
+    
+    margin-bottom: 10px;
+    color: #b2b2b2;
+}
+
+#text-area {
+    display: block;
+    width: 100%;
+    
+}
+
+form span {
+    text-align: center;
+    width: 100%;
+    
+}
+.contact-info label span{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+input, textarea {
+    border: 3px solid #eee;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+}
+.send-btn {
+    width: 100%;
+}
+
+.contact-me {
+    padding: 20px;
+    background: url("https://static.pexels.com/photos/397096/pexels-photo-397096.jpeg")
+        
+        radial-gradient(circle at top right,#ffa949, #eee)  ;
+    
+}
+
