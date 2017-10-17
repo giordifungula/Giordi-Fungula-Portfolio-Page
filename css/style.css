@@ -229,6 +229,12 @@ footer p {
      .one-third p {
          padding: 0 2%;
      }
+     .serv-sec p {
+         padding:3%;
+     }
+     .about-p {
+         padding: 3%;
+     }
      
  }
 @media screen and (min-width: 730px) {
