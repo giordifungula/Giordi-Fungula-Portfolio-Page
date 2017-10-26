@@ -12,6 +12,7 @@ html,body {
   padding: 0;
   height: 100%;
   width: 100%;
+    background: #f1f6f8;
 }
 
 p {
@@ -265,7 +266,7 @@ footer p {
 .soon:hover {
     
     opacity: .9;
-    background: #fff444;
+    background: #747479;
 }
 
 .soon {
@@ -276,9 +277,10 @@ footer p {
 }
 /*----     Form Section   ----*/
 form {
-    max-width: 450px;
+    max-width: 850px;
     margin: 0 auto 50px;
     background: #eee center;
+    text-align: center;
     
 }
 .form-block {
